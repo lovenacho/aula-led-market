@@ -63,6 +63,8 @@
   <h1>🎬 动画市场管理 <small>本地工具 · 改完记得 Git 提交并推送</small></h1>
   <div class="actions">
     <button id="refresh">刷新</button>
+    <button id="importBtn">导入投稿包</button>
+    <input type="file" id="importFile" accept=".json,application/json" hidden />
     <button id="build">重建索引</button>
     <button id="validate">校验</button>
     <button id="commit" class="primary">Git 提交</button>
@@ -145,6 +147,25 @@ $('grid').addEventListener('click', async (ev) => {
   }
 });
 $('refresh').addEventListener('click', load);
+$('importBtn').addEventListener('click', () => $('importFile').click());
+$('importFile').addEventListener('change', async () => {
+  const file = $('importFile').files[0];
+  if (!file) return;
+  setStatus('读取投稿包…');
+  try {
+    const text = await file.text();
+    const data = JSON.parse(text);
+    setStatus('导入投稿包…');
+    const res = await api('/api/import', { data });
+    log(res.output || res.error || '', true);
+    setStatus(res.ok ? '投稿包已导入，记得审核预览后 Git 提交并推送。' : '导入失败，请看日志。');
+    await load();
+  } catch (err) {
+    setStatus('导入失败：' + err.message);
+  } finally {
+    $('importFile').value = '';
+  }
+});
 $('build').addEventListener('click', async () => {
   setStatus('重建索引…');
   const res = await api('/api/build', {});

@@ -1,0 +1,77 @@
+name: 动画投稿
+description: 提交一个动画到 AULA LED 市场，等待人工审核
+title: "[投稿] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢投稿。请先在软件里用「导出投稿包」生成 `.aulaanim.json`，
+        然后把文件拖到下面的「投稿包」输入框里。
+
+        审核通过后才会进入市场；市场只接收动画数据，不接收任何 `.py` 或可执行文件。
+
+  - type: input
+    id: animation_name
+    attributes:
+      label: 动画名
+      placeholder: 例如：爱心
+    validations:
+      required: true
+
+  - type: input
+    id: author
+    attributes:
+      label: 作者
+      placeholder: 你的昵称
+    validations:
+      required: true
+
+  - type: dropdown
+    id: license
+    attributes:
+      label: 许可证
+      options:
+        - CC-BY-4.0
+        - CC0-1.0
+        - MIT
+        - 仅授权本市场使用
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: models
+    attributes:
+      label: 适配型号
+      options:
+        - label: 60键
+        - label: 68键
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 说明
+      placeholder: 简单描述动画效果、帧数、fps 等
+      render: text
+    validations:
+      required: false
+
+  - type: textarea
+    id: package
+    attributes:
+      label: 投稿包
+      description: 把软件导出的 `.aulaanim.json` 拖到这里；不要上传 .py/.exe/.zip
+      placeholder: 拖入投稿包，或粘贴文件名
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 确认
+      options:
+        - label: 我确认这个动画由我制作，或我有权授权市场使用。
+          required: true
+        - label: 我理解投稿需要人工审核，不保证一定通过。
+          required: true

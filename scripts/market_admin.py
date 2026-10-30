@@ -11,8 +11,10 @@
 """
 from __future__ import annotations
 
+import base64
 import json
 import mimetypes
+import re
 import shutil
 import subprocess
 import sys
@@ -113,6 +115,53 @@ class Handler(BaseHTTPRequestHandler):
             payload = json.loads(self.rfile.read(length) or b"{}")
         except Exception:
             return self._json({"ok": False, "error": "请求不是合法 JSON"}, 400)
+
+        if route == "/api/import":
+            try:
+                pack = payload.get("data")
+                if not isinstance(pack, dict) or pack.get("format") != "aula-led-market-submission":
+                    raise ValueError("不是有效的投稿包（format 不对）")
+                manifest = pack.get("manifest")
+                frames_obj = pack.get("frames")
+                if not isinstance(manifest, dict) or not isinstance(frames_obj, dict):
+                    raise ValueError("投稿包缺少 manifest 或 frames")
+                frames = frames_obj.get("frames")
+                if not isinstance(frames, list) or not frames:
+                    raise ValueError("投稿包没有帧数据")
+                if len(frames) > 600:
+                    raise ValueError("帧数超过上限")
+                anim_id = str(manifest.get("id") or "")
+                if not re.fullmatch(r"[a-z0-9][a-z0-9-]{1,63}", anim_id):
+                    raise ValueError("动画 ID 不合法")
+                folder = safe_animation_dir(anim_id)
+                if folder.exists():
+                    raise ValueError("这个 ID 已经存在，不能重复导入")
+                manifest["frames"] = "animations/" + anim_id + "/frames.json"
+                manifest["preview"] = "previews/" + anim_id + ".png"
+                preview_b64 = str(pack.get("preview_png_base64") or "")
+                if preview_b64.startswith("data:"):
+                    preview_b64 = preview_b64.split(",", 1)[-1]
+                preview_bytes = base64.b64decode(preview_b64, validate=True)
+                if not preview_bytes.startswith(b"\x89PNG"):
+                    raise ValueError("预览图不是 PNG")
+                folder.mkdir(parents=True)
+                (folder / "frames.json").write_text(
+                    json.dumps(frames_obj, ensure_ascii=False, indent=2) + "\n",
+                    encoding="utf-8",
+                )
+                (folder / "manifest.json").write_text(
+                    json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
+                    encoding="utf-8",
+                )
+                preview = ROOT / manifest["preview"]
+                preview.parent.mkdir(parents=True, exist_ok=True)
+                preview.write_bytes(preview_bytes)
+                code, out = run_script("build_index.py")
+                vcode, vout = run_script("validate.py")
+                return self._json({"ok": code == 0 and vcode == 0,
+                                   "output": (out.strip() + "\n" + vout.strip()).strip()})
+            except Exception as exc:
+                return self._json({"ok": False, "error": str(exc)}, 500)
 
         if route == "/api/delete":
             anim_id = payload.get("id", "")
