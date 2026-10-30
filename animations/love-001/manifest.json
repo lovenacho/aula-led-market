@@ -1,0 +1,15 @@
+{
+  "id": "love-001",
+  "name": "love",
+  "author": "那秋眠",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "min_app": "v2.4.4",
+  "description": "粉紫爱心扩散动画，157 帧 / 8fps。",
+  "layouts": ["win60he", "win68he", "win60se", "win60hepro", "win60hemax"],
+  "fps": 8.0,
+  "smooth": true,
+  "tags": ["爱心", "粉色", "渐变"],
+  "preview": "previews/love-001.png",
+  "frames": "animations/love-001/frames.json"
+}

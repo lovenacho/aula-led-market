@@ -1,0 +1,15 @@
+{
+  "id": "heart-001",
+  "name": "爱心",
+  "author": "那秋眠",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "min_app": "v2.4.4",
+  "description": "短循环爱心动画，18 帧 / 8fps。",
+  "layouts": ["win60he", "win68he", "win60se", "win60hepro", "win60hemax"],
+  "fps": 8.0,
+  "smooth": true,
+  "tags": ["爱心", "循环"],
+  "preview": "previews/heart-001.png",
+  "frames": "animations/heart-001/frames.json"
+}

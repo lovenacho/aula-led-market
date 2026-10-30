@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "updated": "2026-10-30T16:28:22Z",
+  "animations": [
+    {
+      "id": "heart-001",
+      "name": "爱心",
+      "author": "那秋眠",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "短循环爱心动画，18 帧 / 8fps。",
+      "layouts": [
+        "win60he",
+        "win68he",
+        "win60se",
+        "win60hepro",
+        "win60hemax"
+      ],
+      "fps": 8.0,
+      "smooth": true,
+      "tags": [
+        "爱心",
+        "循环"
+      ],
+      "preview": "previews/heart-001.png",
+      "frames_url": "animations/heart-001/frames.json",
+      "frames_count": 18,
+      "size": 9368,
+      "sha256": "fd5743abfa8298dabe39a387184085d8f0661f67814326dbe98c0996f1ccd954"
+    },
+    {
+      "id": "love-001",
+      "name": "love",
+      "author": "那秋眠",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "粉紫爱心扩散动画，157 帧 / 8fps。",
+      "layouts": [
+        "win60he",
+        "win68he",
+        "win60se",
+        "win60hepro",
+        "win60hemax"
+      ],
+      "fps": 8.0,
+      "smooth": true,
+      "tags": [
+        "爱心",
+        "粉色",
+        "渐变"
+      ],
+      "preview": "previews/love-001.png",
+      "frames_url": "animations/love-001/frames.json",
+      "frames_count": 157,
+      "size": 91616,
+      "sha256": "2ca6d820706529374ed0c41a28ce8c64c57b908333e5bdc9d89694fe92fc9453"
+    }
+  ]
+}
