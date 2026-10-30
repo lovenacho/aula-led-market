@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AULA LED 动画市场管理</title>
+<style>
+  :root {
+    --bg: #080b13; --panel: #0f1522; --line: #26304a;
+    --text: #e8eefc; --muted: #8e9bb4; --accent: #29d3ff;
+    --danger: #ff6b7a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: "Microsoft YaHei", system-ui, sans-serif;
+  }
+  header {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 16px; padding: 22px 28px; border-bottom: 1px solid var(--line);
+    flex-wrap: wrap;
+  }
+  h1 { margin: 0; font-size: 20px; }
+  h1 small { color: var(--muted); font-size: 12px; font-weight: normal; margin-left: 8px; }
+  .actions { display: flex; gap: 8px; flex-wrap: wrap; }
+  button {
+    border: 1px solid var(--line); background: #151d2e; color: var(--text);
+    border-radius: 8px; padding: 8px 12px; cursor: pointer; font-size: 12px;
+  }
+  button:hover { border-color: rgba(41, 211, 255, .5); }
+  button.danger { color: var(--danger); border-color: rgba(255, 107, 122, .35); }
+  button.primary { background: #123145; border-color: #1e5a72; }
+  main { padding: 22px 28px 8px; }
+  .status { color: var(--muted); font-size: 12px; margin: 0 0 14px; min-height: 18px; }
+  .grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 14px;
+  }
+  .card {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+    overflow: hidden; display: flex; flex-direction: column;
+  }
+  .card img { width: 100%; height: 140px; object-fit: contain; background: #070a12; display: block; }
+  .card .body { padding: 10px 12px 12px; display: flex; flex-direction: column; gap: 5px; flex: 1; }
+  .card h3 { margin: 0; font-size: 14px; display: flex; justify-content: space-between; gap: 8px; }
+  .card h3 span { color: var(--muted); font-size: 11px; font-weight: normal; }
+  .meta { color: var(--muted); font-size: 11px; line-height: 1.5; }
+  .row { display: flex; gap: 8px; margin-top: 6px; }
+  .row button { flex: 1; }
+  .empty { grid-column: 1 / -1; color: var(--muted); padding: 40px; text-align: center;
+           border: 1px dashed var(--line); border-radius: 12px; }
+  pre {
+    margin: 18px 28px 28px; padding: 14px; min-height: 90px; max-height: 260px;
+    overflow: auto; background: #070a12; border: 1px solid var(--line);
+    border-radius: 10px; color: #b9c6de; font-size: 12px; line-height: 1.6;
+    white-space: pre-wrap;
+  }
+  @media (max-width: 640px) { header, main { padding-left: 14px; padding-right: 14px; } pre { margin-left: 14px; margin-right: 14px; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>🎬 动画市场管理 <small>本地工具 · 改完记得 Git 提交并推送</small></h1>
+  <div class="actions">
+    <button id="refresh">刷新</button>
+    <button id="build">重建索引</button>
+    <button id="validate">校验</button>
+    <button id="commit" class="primary">Git 提交</button>
+    <button id="push">Git 推送</button>
+  </div>
+</header>
+<main>
+  <p class="status" id="status">加载中…</p>
+  <div class="grid" id="grid"></div>
+</main>
+<pre id="log">操作日志会显示在这里。</pre>
+<script>
+const $ = (id) => document.getElementById(id);
+async function api(path, body) {
+  const res = await fetch(path, {
+    method: body === undefined ? 'GET' : 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: body === undefined ? undefined : JSON.stringify(body),
+  });
+  return res.json();
+}
+function esc(value) {
+  return String(value == null ? '' : value).replace(/[&<>"']/g, (c) => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+  }[c]));
+}
+function log(text, clear) {
+  if (clear) $('log').textContent = '';
+  $('log').textContent += (text ? text + '\n' : '');
+  $('log').scrollTop = $('log').scrollHeight;
+}
+function setStatus(text) { $('status').textContent = text; }
+
+let ANIMATIONS = [];
+async function load() {
+  setStatus('加载市场索引…');
+  const data = await api('/api/animations');
+  if (!data.ok) { setStatus('加载失败：' + (data.error || '未知错误')); return; }
+  ANIMATIONS = data.animations || [];
+  setStatus(`共 ${ANIMATIONS.length} 个动画 · 索引更新于 ${data.updated || '未知'}`);
+  render();
+}
+function render() {
+  const grid = $('grid');
+  if (!ANIMATIONS.length) {
+    grid.innerHTML = '<div class="empty">市场里还没有动画。</div>';
+    return;
+  }
+  grid.innerHTML = ANIMATIONS.map((a) => {
+    const models = (a.models && a.models.length ? a.models : a.layouts || []).join(' / ');
+    return `<div class="card">
+      ${a.preview ? `<img src="/${esc(a.preview)}?v=${Date.now()}" alt="" loading="lazy">` : ''}
+      <div class="body">
+        <h3>${esc(a.name || a.id)} <span>${esc(a.id)}</span></h3>
+        <div class="meta">适配：${esc(models || '未知')}</div>
+        <div class="meta">${esc(a.frames_count || '?')} 帧 · ${esc(a.fps || '?')} fps · ${esc(a.license || '')}</div>
+        <div class="row">
+          <button class="danger" data-delete="${esc(a.id)}">删除</button>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+$('grid').addEventListener('click', async (ev) => {
+  const btn = ev.target.closest('button[data-delete]');
+  if (!btn) return;
+  const id = btn.dataset.delete;
+  if (!confirm(`删除动画「${id}」？\n会同时删除 animations/${id} 和预览图，并重建索引。`)) return;
+  btn.disabled = true;
+  setStatus('删除中…');
+  try {
+    const res = await api('/api/delete', { id });
+    log(res.output || res.error || '', true);
+    setStatus(res.ok ? '删除完成，记得 Git 提交并推送。' : '删除后校验失败，请看日志。');
+    await load();
+  } catch (err) {
+    setStatus('删除失败：' + err);
+  } finally {
+    btn.disabled = false;
+  }
+});
+$('refresh').addEventListener('click', load);
+$('build').addEventListener('click', async () => {
+  setStatus('重建索引…');
+  const res = await api('/api/build', {});
+  log(res.output || res.error || '', true);
+  setStatus(res.ok ? '索引已重建。' : '重建失败。');
+  await load();
+});
+$('validate').addEventListener('click', async () => {
+  setStatus('校验中…');
+  const res = await api('/api/validate', {});
+  log(res.output || res.error || '', true);
+  setStatus(res.ok ? '校验通过。' : '校验失败，请看日志。');
+});
+$('commit').addEventListener('click', async () => {
+  const message = prompt('提交说明：', 'Update animation market');
+  if (!message) return;
+  setStatus('Git 提交…');
+  const res = await api('/api/git', { action: 'commit', message });
+  log(res.output || res.error || '', true);
+  setStatus(res.ok ? '已提交，可点 Git 推送。' : '提交失败（可能没有改动），请看日志。');
+});
+$('push').addEventListener('click', async () => {
+  if (!confirm('执行 git push origin main？')) return;
+  setStatus('推送中，可能需要登录 GitHub…');
+  const res = await api('/api/git', { action: 'push' });
+  log(res.output || res.error || '', true);
+  setStatus(res.ok ? '推送成功。' : '推送失败，请看日志。');
+});
+load();
+</script>
+</body>
+</html>

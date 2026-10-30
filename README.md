@@ -27,6 +27,27 @@ index.json                      由 Actions 自动生成
 
 仓库变大后，把 `animations/` 里的帧数据改放 GitHub Releases 或对象存储，`index.json` 里的 `frames_url` 用绝对地址即可。
 
+## 管理工具
+
+双击仓库根目录的：
+
+```text
+管理动画市场.bat
+```
+
+会打开本地管理页（默认 `http://127.0.0.1:8730/`），可以：
+
+- 查看所有动画和预览；
+- 删除动画（同时重建 `index.json` 并校验）；
+- 重建索引 / 校验；
+- Git 提交 / 推送。
+
+也可以直接运行：
+
+```bash
+python scripts/market_admin.py
+```
+
 ## 添加动画
 
 1. 在 `animations/` 新建 `<id>/`；
