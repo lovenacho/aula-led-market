@@ -1,0 +1,3 @@
+# 保持 JSON/PNG 字节不变，避免 Git 的换行转换导致 sha256 校验失败
+* -text
+*.png binary
