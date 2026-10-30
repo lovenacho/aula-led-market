@@ -6,10 +6,21 @@
   "license": "CC-BY-4.0",
   "min_app": "v2.4.4",
   "description": "爱心连续动画，83 帧 / 9fps。",
-  "layouts": ["win60he", "win68he", "win60se", "win60hepro", "win60hemax"],
+  "layouts": [
+    "win60he",
+    "win60hepro",
+    "win60hemax",
+    "win60se"
+  ],
   "fps": 9.0,
   "smooth": true,
-  "tags": ["爱心", "长动画"],
+  "tags": [
+    "爱心",
+    "长动画"
+  ],
   "preview": "previews/love2-001.png",
-  "frames": "animations/love2-001/frames.json"
+  "frames": "animations/love2-001/frames.json",
+  "models": [
+    "60键"
+  ]
 }

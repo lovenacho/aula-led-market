@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-30T17:13:58Z",
+  "updated": "2026-10-30T17:20:16Z",
   "animations": [
     {
       "id": "heart-001",
@@ -10,12 +10,14 @@
       "license": "CC-BY-4.0",
       "min_app": "v2.4.4",
       "description": "短循环爱心动画，18 帧 / 8fps。",
+      "models": [
+        "60键"
+      ],
       "layouts": [
         "win60he",
-        "win68he",
-        "win60se",
         "win60hepro",
-        "win60hemax"
+        "win60hemax",
+        "win60se"
       ],
       "fps": 8.0,
       "smooth": true,
@@ -37,12 +39,14 @@
       "license": "CC-BY-4.0",
       "min_app": "v2.4.4",
       "description": "爱心跃动节奏动画，10 帧 / 3fps。",
+      "models": [
+        "60键"
+      ],
       "layouts": [
         "win60he",
-        "win68he",
-        "win60se",
         "win60hepro",
-        "win60hemax"
+        "win60hemax",
+        "win60se"
       ],
       "fps": 3.0,
       "smooth": true,
@@ -65,12 +69,14 @@
       "license": "CC-BY-4.0",
       "min_app": "v2.4.4",
       "description": "粉紫爱心扩散动画，157 帧 / 8fps。",
+      "models": [
+        "60键"
+      ],
       "layouts": [
         "win60he",
-        "win68he",
-        "win60se",
         "win60hepro",
-        "win60hemax"
+        "win60hemax",
+        "win60se"
       ],
       "fps": 8.0,
       "smooth": true,
@@ -93,12 +99,14 @@
       "license": "CC-BY-4.0",
       "min_app": "v2.4.4",
       "description": "短循环爱心动画，10 帧 / 5fps。",
+      "models": [
+        "60键"
+      ],
       "layouts": [
         "win60he",
-        "win68he",
-        "win60se",
         "win60hepro",
-        "win60hemax"
+        "win60hemax",
+        "win60se"
       ],
       "fps": 5.0,
       "smooth": true,
@@ -120,12 +128,14 @@
       "license": "CC-BY-4.0",
       "min_app": "v2.4.4",
       "description": "爱心连续动画，83 帧 / 9fps。",
+      "models": [
+        "60键"
+      ],
       "layouts": [
         "win60he",
-        "win68he",
-        "win60se",
         "win60hepro",
-        "win60hemax"
+        "win60hemax",
+        "win60se"
       ],
       "fps": 9.0,
       "smooth": true,
@@ -147,12 +157,14 @@
       "license": "CC-BY-4.0",
       "min_app": "v2.4.4",
       "description": "爱心连续动画，83 帧 / 6fps。",
+      "models": [
+        "60键"
+      ],
       "layouts": [
         "win60he",
-        "win68he",
-        "win60se",
         "win60hepro",
-        "win60hemax"
+        "win60hemax",
+        "win60se"
       ],
       "fps": 6.0,
       "smooth": true,

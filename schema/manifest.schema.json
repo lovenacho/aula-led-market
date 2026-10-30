@@ -19,6 +19,10 @@
       "minItems": 1,
       "items": { "type": "string" }
     },
+    "models": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
     "fps": { "type": "number", "minimum": 1, "maximum": 60 },
     "smooth": { "type": "boolean" },
     "tags": {

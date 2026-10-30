@@ -11,7 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "index.json"
 FIELDS = ("id", "name", "author", "version", "license", "min_app",
-          "description", "layouts", "fps", "smooth", "tags")
+          "description", "models", "layouts", "fps", "smooth", "tags")
 
 
 def main() -> int:
