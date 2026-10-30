@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """为市场动画生成简单的键盘网格预览图（原型用）。"""
+import glob
 import json
 import os
 import sys
@@ -39,13 +40,14 @@ def make_preview(frames_path, out_path):
 
 def main():
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    pairs = [
-        ("animations/love-001/frames.json", "previews/love-001.png"),
-        ("animations/heart-001/frames.json", "previews/heart-001.png"),
-    ]
-    for src, dst in pairs:
-        make_preview(os.path.join(root, src), os.path.join(root, dst))
-        print("wrote", dst)
+    for manifest_path in sorted(
+            glob.glob(os.path.join(root, "animations", "*", "manifest.json"))):
+        data = json.load(open(manifest_path, encoding="utf-8"))
+        src = os.path.join(root, data["frames"])
+        dst = os.path.join(root, data["preview"])
+        os.makedirs(os.path.dirname(dst), exist_ok=True)
+        make_preview(src, dst)
+        print("wrote", os.path.relpath(dst, root))
 
 
 if __name__ == "__main__":

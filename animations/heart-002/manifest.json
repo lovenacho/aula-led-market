@@ -1,0 +1,15 @@
+{
+  "id": "heart-002",
+  "name": "爱心跃动",
+  "author": "那秋眠",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "min_app": "v2.4.4",
+  "description": "爱心跃动节奏动画，10 帧 / 3fps。",
+  "layouts": ["win60he", "win68he", "win60se", "win60hepro", "win60hemax"],
+  "fps": 3.0,
+  "smooth": true,
+  "tags": ["爱心", "跃动", "慢节奏"],
+  "preview": "previews/heart-002.png",
+  "frames": "animations/heart-002/frames.json"
+}

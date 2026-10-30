@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-30T16:28:22Z",
+  "updated": "2026-10-30T17:13:58Z",
   "animations": [
     {
       "id": "heart-001",
@@ -30,6 +30,34 @@
       "sha256": "fd5743abfa8298dabe39a387184085d8f0661f67814326dbe98c0996f1ccd954"
     },
     {
+      "id": "heart-002",
+      "name": "爱心跃动",
+      "author": "那秋眠",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "爱心跃动节奏动画，10 帧 / 3fps。",
+      "layouts": [
+        "win60he",
+        "win68he",
+        "win60se",
+        "win60hepro",
+        "win60hemax"
+      ],
+      "fps": 3.0,
+      "smooth": true,
+      "tags": [
+        "爱心",
+        "跃动",
+        "慢节奏"
+      ],
+      "preview": "previews/heart-002.png",
+      "frames_url": "animations/heart-002/frames.json",
+      "frames_count": 10,
+      "size": 13411,
+      "sha256": "ca7bcec1125c3a7e5d8a1a33dc358f9871b55d27c4cac5856ceb024ece74c19d"
+    },
+    {
       "id": "love-001",
       "name": "love",
       "author": "那秋眠",
@@ -56,6 +84,87 @@
       "frames_count": 157,
       "size": 91616,
       "sha256": "2ca6d820706529374ed0c41a28ce8c64c57b908333e5bdc9d89694fe92fc9453"
+    },
+    {
+      "id": "love1-001",
+      "name": "love1",
+      "author": "那秋眠",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "短循环爱心动画，10 帧 / 5fps。",
+      "layouts": [
+        "win60he",
+        "win68he",
+        "win60se",
+        "win60hepro",
+        "win60hemax"
+      ],
+      "fps": 5.0,
+      "smooth": true,
+      "tags": [
+        "爱心",
+        "短循环"
+      ],
+      "preview": "previews/love1-001.png",
+      "frames_url": "animations/love1-001/frames.json",
+      "frames_count": 10,
+      "size": 13404,
+      "sha256": "30453b241a2532789e9f42b951df3ea25cff2870f82cd0bf937436108b5a9bb0"
+    },
+    {
+      "id": "love2-001",
+      "name": "love2",
+      "author": "那秋眠",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "爱心连续动画，83 帧 / 9fps。",
+      "layouts": [
+        "win60he",
+        "win68he",
+        "win60se",
+        "win60hepro",
+        "win60hemax"
+      ],
+      "fps": 9.0,
+      "smooth": true,
+      "tags": [
+        "爱心",
+        "长动画"
+      ],
+      "preview": "previews/love2-001.png",
+      "frames_url": "animations/love2-001/frames.json",
+      "frames_count": 83,
+      "size": 25210,
+      "sha256": "82fd1632e4dc5f06f87f56092324d30561b4d0c36c838ceff4d0f9aee905fa2f"
+    },
+    {
+      "id": "love3-001",
+      "name": "love3",
+      "author": "那秋眠",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "爱心连续动画，83 帧 / 6fps。",
+      "layouts": [
+        "win60he",
+        "win68he",
+        "win60se",
+        "win60hepro",
+        "win60hemax"
+      ],
+      "fps": 6.0,
+      "smooth": true,
+      "tags": [
+        "爱心",
+        "长动画"
+      ],
+      "preview": "previews/love3-001.png",
+      "frames_url": "animations/love3-001/frames.json",
+      "frames_count": 83,
+      "size": 25210,
+      "sha256": "749121d7e1ecbcea51c1462000716e4d1f1a72aaa9223f82d665449d7744c67c"
     }
   ]
 }

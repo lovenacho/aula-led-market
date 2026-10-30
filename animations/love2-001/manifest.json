@@ -1,0 +1,15 @@
+{
+  "id": "love2-001",
+  "name": "love2",
+  "author": "那秋眠",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "min_app": "v2.4.4",
+  "description": "爱心连续动画，83 帧 / 9fps。",
+  "layouts": ["win60he", "win68he", "win60se", "win60hepro", "win60hemax"],
+  "fps": 9.0,
+  "smooth": true,
+  "tags": ["爱心", "长动画"],
+  "preview": "previews/love2-001.png",
+  "frames": "animations/love2-001/frames.json"
+}
