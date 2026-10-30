@@ -50,17 +50,22 @@ index.json                      由 Actions 自动生成
 
 ## 客户端接入（原型）
 
-客户端使用仓库里的 demo 市场副本：
+客户端优先读取 GitHub/jsDelivr，失败时回落到程序目录里的 demo：
 
 ```text
 _internal/web/market/index.json
 ```
 
-正式上传 GitHub 后，把 `app.js` 里的 `MARKET_INDEX_URL` 改成：
+正式上传后，把 `app.js` 里 `MARKET_INDEX_URLS` 的第一个地址改成：
 
 ```js
-const MARKET_INDEX_URL = 'https://cdn.jsdelivr.net/gh/<用户名>/<仓库>@main/index.json';
+const MARKET_INDEX_URLS = [
+  'https://cdn.jsdelivr.net/gh/<用户名>/<仓库>@main/index.json',
+  'market/index.json',
+];
 ```
+
+保留第二项作为离线/网络不通时的本地示例。
 
 客户端安装流程：
 
