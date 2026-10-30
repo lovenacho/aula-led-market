@@ -37,7 +37,8 @@ def load_index():
 def run_script(name, timeout=120):
     proc = subprocess.run(
         [sys.executable, str(SCRIPTS / name)],
-        cwd=str(ROOT), capture_output=True, text=True, timeout=timeout,
+        cwd=str(ROOT), capture_output=True, text=True,
+        encoding="utf-8", errors="replace", timeout=timeout,
     )
     return proc.returncode, (proc.stdout or "") + (proc.stderr or "")
 
@@ -45,7 +46,8 @@ def run_script(name, timeout=120):
 def run_git(args, timeout=120):
     proc = subprocess.run(
         ["git"] + args, cwd=str(ROOT),
-        capture_output=True, text=True, timeout=timeout,
+        capture_output=True, text=True,
+        encoding="utf-8", errors="replace", timeout=timeout,
     )
     return proc.returncode, (proc.stdout or "") + (proc.stderr or "")
 
