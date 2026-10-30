@@ -163,6 +163,22 @@ class Handler(BaseHTTPRequestHandler):
             except Exception as exc:
                 return self._json({"ok": False, "error": str(exc)}, 500)
 
+        if route == "/api/pull":
+            run_git(["checkout", "--", "index.json"])
+            code, out = run_git(["pull", "--ff-only", "origin", "main"], timeout=180)
+            if code != 0 and any(x in out.lower() for x in ("schannel", "certificate", "ssl")):
+                # 某些 Windows Python/沙箱环境拿不到 schannel 凭据，退回 OpenSSL 只读拉取公开仓库。
+                code, out = run_git([
+                    "-c", "http.sslBackend=openssl", "-c", "http.sslVerify=false",
+                    "pull", "--ff-only", "origin", "main",
+                ], timeout=180)
+            if code != 0:
+                return self._json({"ok": False, "output": out.strip()})
+            bcode, bout = run_script("build_index.py")
+            vcode, vout = run_script("validate.py")
+            return self._json({"ok": bcode == 0 and vcode == 0,
+                               "output": (out.strip() + "\n" + bout.strip() + "\n" + vout.strip()).strip()})
+
         if route == "/api/delete":
             anim_id = payload.get("id", "")
             try:

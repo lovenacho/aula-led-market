@@ -63,6 +63,7 @@
   <h1>🎬 动画市场管理 <small>本地工具 · 改完记得 Git 提交并推送</small></h1>
   <div class="actions">
     <button id="refresh">刷新</button>
+    <button id="pull">拉取 GitHub</button>
     <button id="importBtn">导入投稿包</button>
     <input type="file" id="importFile" accept=".json,application/json" hidden />
     <button id="build">重建索引</button>
@@ -147,6 +148,13 @@ $('grid').addEventListener('click', async (ev) => {
   }
 });
 $('refresh').addEventListener('click', load);
+$('pull').addEventListener('click', async () => {
+  setStatus('拉取 GitHub 最新提交…');
+  const res = await api('/api/pull', {});
+  log(res.output || res.error || '', true);
+  setStatus(res.ok ? '已拉取最新市场。' : '拉取失败，请看日志。');
+  await load();
+});
 $('importBtn').addEventListener('click', () => $('importFile').click());
 $('importFile').addEventListener('change', async () => {
   const file = $('importFile').files[0];
