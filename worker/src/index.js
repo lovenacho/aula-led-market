@@ -207,7 +207,7 @@ async function submit(payload, env) {
       base: 'main',
       body: '投稿动画：' + name + '\n\n'
         + '- 作者：' + manifest.author + '\n'
-        + '- 适配：' + models.join(' / ') + '\n'
+        + '- 适配：' + manifest.models.join(' / ') + '\n'
         + '- 许可证：' + manifest.license + '\n'
         + '- 帧数：' + framesObj.frames.length + ' @ ' + manifest.fps + 'fps\n\n'
         + '由投稿 Worker 自动创建，请审核后合并。',
