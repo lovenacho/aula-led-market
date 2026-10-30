@@ -1,0 +1,11 @@
+name = "aula-led-market-submit"
+main = "src/index.js"
+compatibility_date = "2026-10-31"
+
+[vars]
+GITHUB_REPO = "lovenacho/aula-led-market"
+ALLOWED_ORIGIN = "*"
+
+# Secrets（不要写在这里）：
+#   wrangler secret put GITHUB_TOKEN
+#   wrangler secret put SUBMIT_CODE
