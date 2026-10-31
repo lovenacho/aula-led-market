@@ -197,15 +197,36 @@ class Handler(BaseHTTPRequestHandler):
 
         if route == "/api/pull":
             run_git(["checkout", "--", "index.json"])
-            code, out = run_git(["pull", "--ff-only", "origin", "main"], timeout=180)
-            if code != 0 and any(x in out.lower() for x in ("schannel", "certificate", "ssl")):
-                # 某些 Windows Python/沙箱环境拿不到 schannel 凭据，退回 OpenSSL 只读拉取公开仓库。
-                code, out = run_git([
+            fcode, fout = run_git(["fetch", "origin", "main"], timeout=180)
+            if fcode != 0 and any(x in fout.lower() for x in ("schannel", "certificate", "ssl")):
+                fcode, fout = run_git([
                     "-c", "http.sslBackend=openssl", "-c", "http.sslVerify=false",
-                    "pull", "--ff-only", "origin", "main",
+                    "fetch", "origin", "main",
                 ], timeout=180)
-            if code != 0:
-                return self._json({"ok": False, "output": out.strip()})
+            if fcode != 0:
+                return self._json({"ok": False, "output": fout.strip()})
+
+            # 本地可能只有一条自动生成的 index.json 提交（时间戳），
+            # 这种分叉直接对齐远端，否则 ff-only 会永远失败。
+            acode, aout = run_git(["diff", "--name-only", "origin/main...HEAD"])
+            ahead_files = {line.strip() for line in aout.splitlines() if line.strip()}
+            if acode == 0 and ahead_files and ahead_files <= {"index.json"}:
+                scode, sstatus = run_git(["status", "--porcelain"])
+                if scode != 0 or sstatus.strip():
+                    return self._json({"ok": False, "output": "本地还有未提交改动，请先提交或撤销后再拉取。\n" + sstatus.strip()})
+                rcode, rout = run_git(["reset", "--hard", "origin/main"])
+                if rcode != 0:
+                    return self._json({"ok": False, "output": rout.strip()})
+                code, out = 0, "本地只有 index.json 时间戳提交，已对齐远端。\n" + rout.strip()
+            else:
+                code, out = run_git(["pull", "--ff-only", "origin", "main"], timeout=180)
+                if code != 0 and any(x in out.lower() for x in ("schannel", "certificate", "ssl")):
+                    code, out = run_git([
+                        "-c", "http.sslBackend=openssl", "-c", "http.sslVerify=false",
+                        "pull", "--ff-only", "origin", "main",
+                    ], timeout=180)
+                if code != 0:
+                    return self._json({"ok": False, "output": out.strip()})
             bcode, bout = run_script("build_index.py")
             vcode, vout = run_script("validate.py")
             return self._json({"ok": bcode == 0 and vcode == 0,

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-31T06:55:07Z",
+  "updated": "2026-10-31T06:58:15Z",
   "animations": [
     {
       "id": "anim--mvw1qk6r",
@@ -23,7 +23,6 @@
       "smooth": true,
       "tags": [],
       "preview": "previews/anim--mvw1qk6r.png",
-      "frames": "animations/anim--mvw1qk6r/frames.json",
       "frames_url": "animations/anim--mvw1qk6r/frames.json",
       "frames_count": 1,
       "size": 138,
@@ -46,7 +45,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 8,
+      "fps": 8.0,
       "smooth": true,
       "tags": [
         "爱心",
@@ -75,7 +74,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 3,
+      "fps": 3.0,
       "smooth": true,
       "tags": [
         "爱心",
@@ -105,7 +104,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 8,
+      "fps": 8.0,
       "smooth": true,
       "tags": [
         "爱心",
@@ -135,7 +134,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 5,
+      "fps": 5.0,
       "smooth": true,
       "tags": [
         "爱心",
@@ -164,7 +163,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 9,
+      "fps": 9.0,
       "smooth": true,
       "tags": [
         "爱心",
@@ -193,7 +192,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 6,
+      "fps": 6.0,
       "smooth": true,
       "tags": [
         "爱心",
