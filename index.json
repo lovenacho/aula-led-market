@@ -1,33 +1,7 @@
 {
   "schema": 1,
-  "updated": "2026-10-31T06:58:15Z",
+  "updated": "2026-10-31T06:59:39Z",
   "animations": [
-    {
-      "id": "anim--mvw1qk6r",
-      "name": "测试",
-      "author": "那秋眠",
-      "version": "1.0.0",
-      "license": "CC-BY-4.0",
-      "min_app": "v2.4.4",
-      "description": "",
-      "models": [
-        "60键"
-      ],
-      "layouts": [
-        "win60he",
-        "win60hepro",
-        "win60hemax",
-        "win60se"
-      ],
-      "fps": 8,
-      "smooth": true,
-      "tags": [],
-      "preview": "previews/anim--mvw1qk6r.png",
-      "frames_url": "animations/anim--mvw1qk6r/frames.json",
-      "frames_count": 1,
-      "size": 138,
-      "sha256": "d1776f48f77e3fee591f9aeaa1a0273b3b41c928f5792d9b63a84fb2ee802970"
-    },
     {
       "id": "heart-001",
       "name": "爱心",
