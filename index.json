@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-31T09:35:38Z",
+  "updated": "2026-10-31T12:08:15Z",
   "animations": [
     {
       "id": "anim--mvw7gzun",
@@ -28,6 +28,33 @@
       "frames_count": 18,
       "size": 26095,
       "sha256": "7e54e01da47030e1292982a959a20e5ea735b83ab74c0630616a4a542729e167"
+    },
+    {
+      "id": "anim-love-pro-mvwcx7jd",
+      "name": "love pro",
+      "author": "那秋眠",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "此动画为love灯效升级版",
+      "models": [
+        "60键"
+      ],
+      "layouts": [
+        "win60he",
+        "win60hepro",
+        "win60hemax",
+        "win60se"
+      ],
+      "fps": 7,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim-love-pro-mvwcx7jd.png",
+      "frames": "animations/anim-love-pro-mvwcx7jd/frames.json",
+      "frames_url": "animations/anim-love-pro-mvwcx7jd/frames.json",
+      "frames_count": 205,
+      "size": 372645,
+      "sha256": "9bf52fb7bd083ef7c230fb5f45db2911bcf36690d8016472bcfe07971b102b2a"
     },
     {
       "id": "heart-001",
