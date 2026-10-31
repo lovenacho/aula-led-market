@@ -1,0 +1,23 @@
+{
+  "id": "anim--mvw1qk6r",
+  "name": "测试",
+  "author": "那秋眠",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "min_app": "v2.4.4",
+  "description": "",
+  "models": [
+    "60键"
+  ],
+  "layouts": [
+    "win60he",
+    "win60hepro",
+    "win60hemax",
+    "win60se"
+  ],
+  "fps": 8,
+  "smooth": true,
+  "tags": [],
+  "preview": "previews/anim--mvw1qk6r.png",
+  "frames": "animations/anim--mvw1qk6r/frames.json"
+}
