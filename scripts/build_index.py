@@ -28,10 +28,19 @@ def main() -> int:
         entry["sha256"] = hashlib.sha256(frames_path.read_bytes()).hexdigest()
         animations.append(entry)
 
+    animations = sorted(animations, key=lambda item: item["id"])
+    updated = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+    if OUT.exists():
+        try:
+            old = json.loads(OUT.read_text(encoding="utf-8"))
+            if old.get("animations") == animations and old.get("updated"):
+                updated = old["updated"]
+        except Exception:
+            pass
     index = {
         "schema": 1,
-        "updated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-        "animations": sorted(animations, key=lambda item: item["id"]),
+        "updated": updated,
+        "animations": animations,
     }
     text = json.dumps(index, ensure_ascii=False, indent=2) + "\n"
     if "--check" in sys.argv:
