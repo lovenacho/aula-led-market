@@ -1,34 +1,7 @@
 {
   "schema": 1,
-  "updated": "2026-10-31T07:00:18Z",
+  "updated": "2026-10-31T07:01:00Z",
   "animations": [
-    {
-      "id": "anim--mvw1x9ir",
-      "name": "测试",
-      "author": "那秋眠",
-      "version": "1.0.0",
-      "license": "CC-BY-4.0",
-      "min_app": "v2.4.4",
-      "description": "",
-      "models": [
-        "60键"
-      ],
-      "layouts": [
-        "win60he",
-        "win60hepro",
-        "win60hemax",
-        "win60se"
-      ],
-      "fps": 8,
-      "smooth": true,
-      "tags": [],
-      "preview": "previews/anim--mvw1x9ir.png",
-      "frames": "animations/anim--mvw1x9ir/frames.json",
-      "frames_url": "animations/anim--mvw1x9ir/frames.json",
-      "frames_count": 1,
-      "size": 138,
-      "sha256": "d25981b1c68cb97c0d6b905ef6ffa2962d188f1dd7dd702dedd838de40cbc3f2"
-    },
     {
       "id": "heart-001",
       "name": "爱心",
@@ -46,7 +19,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 8,
+      "fps": 8.0,
       "smooth": true,
       "tags": [
         "爱心",
@@ -75,7 +48,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 3,
+      "fps": 3.0,
       "smooth": true,
       "tags": [
         "爱心",
@@ -105,7 +78,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 8,
+      "fps": 8.0,
       "smooth": true,
       "tags": [
         "爱心",
@@ -135,7 +108,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 5,
+      "fps": 5.0,
       "smooth": true,
       "tags": [
         "爱心",
@@ -164,7 +137,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 9,
+      "fps": 9.0,
       "smooth": true,
       "tags": [
         "爱心",
@@ -193,7 +166,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 6,
+      "fps": 6.0,
       "smooth": true,
       "tags": [
         "爱心",
