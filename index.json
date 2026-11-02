@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-02T12:19:46Z",
+  "updated": "2026-11-02T16:22:50Z",
   "animations": [
     {
       "id": "anim--mvw7gzun",
@@ -85,6 +85,33 @@
       "frames_count": 61,
       "size": 31689,
       "sha256": "ab2bc7ace00ad0a063a5e9a5fa45681a88337640b5b3c2e6d1ec81e091090f09"
+    },
+    {
+      "id": "anim--mvzgwbtg",
+      "name": "奶龙",
+      "author": "走好",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "哈哈哈哈哈",
+      "models": [
+        "60键"
+      ],
+      "layouts": [
+        "win60he",
+        "win60hepro",
+        "win60hemax",
+        "win60se"
+      ],
+      "fps": 24,
+      "smooth": false,
+      "tags": [],
+      "preview": "previews/anim--mvzgwbtg.png",
+      "frames": "animations/anim--mvzgwbtg/frames.json",
+      "frames_url": "animations/anim--mvzgwbtg/frames.json",
+      "frames_count": 13,
+      "size": 41641,
+      "sha256": "7a919ab8c35972a74b6551d0e1836894a65533df0eadf4540381a36fc545321f"
     },
     {
       "id": "anim-aixin-mvz87oz5",
