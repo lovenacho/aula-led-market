@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-02T08:09:07Z",
+  "updated": "2026-11-02T12:20:37Z",
   "animations": [
     {
       "id": "anim--mvw7gzun",
@@ -85,6 +85,33 @@
       "frames_count": 61,
       "size": 31689,
       "sha256": "ab2bc7ace00ad0a063a5e9a5fa45681a88337640b5b3c2e6d1ec81e091090f09"
+    },
+    {
+      "id": "anim-aixin-mvz88v4m",
+      "name": "AIXIN",
+      "author": "那秋眠",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "",
+      "models": [
+        "60键"
+      ],
+      "layouts": [
+        "win60he",
+        "win60hepro",
+        "win60hemax",
+        "win60se"
+      ],
+      "fps": 24,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim-aixin-mvz88v4m.png",
+      "frames": "animations/anim-aixin-mvz88v4m/frames.json",
+      "frames_url": "animations/anim-aixin-mvz88v4m/frames.json",
+      "frames_count": 1,
+      "size": 2076,
+      "sha256": "23f14cddd82bcd2b01223f9e1a0b3123374e1edca6596953e1fd6b3f9be782bd"
     },
     {
       "id": "anim-love-mvytq130",
