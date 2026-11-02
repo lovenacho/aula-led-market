@@ -1,0 +1,23 @@
+{
+  "id": "anim-aixin-mvz87oz5",
+  "name": "AIXIN",
+  "author": "那秋眠",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "min_app": "v2.4.4",
+  "description": "",
+  "models": [
+    "60键"
+  ],
+  "layouts": [
+    "win60he",
+    "win60hepro",
+    "win60hemax",
+    "win60se"
+  ],
+  "fps": 24,
+  "smooth": true,
+  "tags": [],
+  "preview": "previews/anim-aixin-mvz87oz5.png",
+  "frames": "animations/anim-aixin-mvz87oz5/frames.json"
+}
