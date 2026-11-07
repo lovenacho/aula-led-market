@@ -1,6 +1,6 @@
 {
   "version": "v2.5.4",
-  "url": "https://raw.githubusercontent.com/lovenacho/aula-led-market/main/releases/AULA_LED_v2.5.4_Stable.zip",
+  "url": "https://github.com/lovenacho/aula-led-market/releases/download/v2.5.4/AULA_LED_v2.5.4_Stable.zip",
   "sha256": "8A9A1F4164155A2DAB74178EAA9454F5FBA96D21F7BEA926987268B58F2D1A88",
   "size": 21635037,
   "min_app": "v2.5.0",
