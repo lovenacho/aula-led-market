@@ -1,12 +1,10 @@
 {
-  "version": "v2.5.4",
-  "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.5.4/AULA_LED_v2.5.4_Stable.zip",
-  "sha256": "8A9A1F4164155A2DAB74178EAA9454F5FBA96D21F7BEA926987268B58F2D1A88",
-  "size": 21635037,
+  "version": "v2.5.5",
+  "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.5.5/AULA_LED_v2.5.5_Stable.zip",
+  "sha256": "C662BE5E93BAE8E20D98E97E2A27F62F45333DB78722869C059EFBADBC29433B",
+  "size": 21327233,
   "min_app": "v2.5.0",
-  "notes": "应用内检查更新、一键更新器（SHA-256 校验、保留用户数据、失败回滚）。",
-  "published": "2026-11-07",
-  "mirrors": [
-    "https://github.com/lovenacho/aula-led-market/releases/download/v2.5.4/AULA_LED_v2.5.4_Stable.zip"
-  ]
+  "notes": "更新入口移到顶栏，启动自动检查并弹窗提示；修复按键涟漪按住不亮",
+  "published": "2026-11-08",
+  "mirrors": []
 }
