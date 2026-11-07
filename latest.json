@@ -1,0 +1,9 @@
+{
+  "version": "v2.5.4",
+  "url": "https://raw.githubusercontent.com/lovenacho/aula-led-market/main/releases/AULA_LED_v2.5.4_Stable.zip",
+  "sha256": "8A9A1F4164155A2DAB74178EAA9454F5FBA96D21F7BEA926987268B58F2D1A88",
+  "size": 21635037,
+  "min_app": "v2.5.0",
+  "notes": "应用内检查更新、一键更新器（SHA-256 校验、保留用户数据、失败回滚）。",
+  "published": "2026-11-07"
+}
