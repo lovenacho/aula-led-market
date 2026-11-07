@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-04T05:41:01Z",
+  "updated": "2026-11-07T18:06:43Z",
   "animations": [
     {
       "id": "anim--mvw7gzun",
@@ -168,6 +168,34 @@
       "sha256": "73ef324d58a5de8274d8e33299648d917b6b737b12098cb62cc7971b6f725519"
     },
     {
+      "id": "anim-dynamic-flow",
+      "name": "动感流光",
+      "author": "那秋眠",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "两道锐利光带反向疾驰，带渐隐拖尾，速度感强；彩虹模式下光带本身也是彩色。",
+      "models": [
+        "68键"
+      ],
+      "layouts": [
+        "win68he"
+      ],
+      "fps": 24,
+      "smooth": false,
+      "tags": [
+        "动感",
+        "流光",
+        "疾驰"
+      ],
+      "preview": "previews/anim-dynamic-flow.png",
+      "frames": "animations/anim-dynamic-flow/frames.json",
+      "frames_url": "animations/anim-dynamic-flow/frames.json",
+      "frames_count": 96,
+      "size": 290625,
+      "sha256": "b575ca8c15eb0ec826b0b1bd756edb95f153626653040fb831c820559b3362bd"
+    },
+    {
       "id": "anim-love-mvytq130",
       "name": "love碰撞",
       "author": "終余",
@@ -244,6 +272,62 @@
       "frames_count": 141,
       "size": 558230,
       "sha256": "5806d64c74aff452591986637838ba5217620ce5943e006459eb22442751751c"
+    },
+    {
+      "id": "anim-moon-ripple",
+      "name": "月影波澜",
+      "author": "那秋眠",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "深蓝月光底色，波纹从键盘中心一圈圈荡开，波峰泛青白，安静柔和。",
+      "models": [
+        "68键"
+      ],
+      "layouts": [
+        "win68he"
+      ],
+      "fps": 24,
+      "smooth": false,
+      "tags": [
+        "波澜",
+        "月光",
+        "波纹"
+      ],
+      "preview": "previews/anim-moon-ripple.png",
+      "frames": "animations/anim-moon-ripple/frames.json",
+      "frames_url": "animations/anim-moon-ripple/frames.json",
+      "frames_count": 96,
+      "size": 298419,
+      "sha256": "750289c6cf5951c2a7d9e36746a09423d51bc3a874071afdfc2d8d3864957a2f"
+    },
+    {
+      "id": "anim-rainbow-flow",
+      "name": "五彩流光",
+      "author": "那秋眠",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "整片同色系缓慢转色的流光，一条宽光带横穿键盘，颜色在青蓝、紫、橙黄之间循环。",
+      "models": [
+        "68键"
+      ],
+      "layouts": [
+        "win68he"
+      ],
+      "fps": 24,
+      "smooth": false,
+      "tags": [
+        "流光",
+        "彩虹",
+        "彩虹流光"
+      ],
+      "preview": "previews/anim-rainbow-flow.png",
+      "frames": "animations/anim-rainbow-flow/frames.json",
+      "frames_url": "animations/anim-rainbow-flow/frames.json",
+      "frames_count": 96,
+      "size": 287789,
+      "sha256": "ba0dbaaa2722a16d67bc41bee0f3e64ade2af46ca270a7a808e9d7b9a85e0218"
     },
     {
       "id": "heart-001",
