@@ -1,10 +1,10 @@
 {
-  "version": "v2.5.6",
-  "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.5.6/AULA_LED_v2.5.6_Stable_Token.zip",
-  "sha256": "4499B6F90910AA2268DF77A597E52EC01BEACB6C0E55B4C240BA6A17CC4CFAD5",
-  "size": 21309979,
+  "version": "v2.5.7",
+  "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.5.7/AULA_LED_v2.5.7_Stable.zip",
+  "sha256": "0ACD28EE513C0F593614B809C43A9708394E195DAE53135DAFDE9E29C2E6939B",
+  "size": 21309969,
   "min_app": "v2.5.0",
-  "notes": "官方灯效 JSON 直接导入动画编辑器，自动识别帧数和键位，导入后还能继续修改。",
+  "notes": "修复更新.bat点击无反应；官方 JSON 导入；加密 Token 随包。",
   "published": "2026-11-08",
   "mirrors": []
 }
