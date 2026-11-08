@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-08T02:15:05Z",
+  "updated": "2026-11-08T09:13:37Z",
   "animations": [
     {
       "id": "anim--mvw7gzun",
@@ -166,6 +166,33 @@
       "frames_count": 278,
       "size": 633973,
       "sha256": "ceea82474f67d50db4f3d17ab0ef15af245a0f530417cc6292b519a0815a276f"
+    },
+    {
+      "id": "anim--mw7m7iae",
+      "name": "时间线",
+      "author": "終余",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "时间线",
+      "models": [
+        "60键"
+      ],
+      "layouts": [
+        "win60he",
+        "win60hepro",
+        "win60hemax",
+        "win60se"
+      ],
+      "fps": 5,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim--mw7m7iae.png",
+      "frames": "animations/anim--mw7m7iae/frames.json",
+      "frames_url": "animations/anim--mw7m7iae/frames.json",
+      "frames_count": 277,
+      "size": 488786,
+      "sha256": "d92a2b793864289f86e66814a02bef023db5afbc81a82fd4106e768870ac9ac6"
     },
     {
       "id": "anim-aixin-mvz87oz5",
