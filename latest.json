@@ -1,0 +1,10 @@
+{
+  "version": "v2.5.5",
+  "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.5.5/AULA_LED_v2.5.5_Stable.zip",
+  "sha256": "C662BE5E93BAE8E20D98E97E2A27F62F45333DB78722869C059EFBADBC29433B",
+  "size": 21327233,
+  "min_app": "v2.5.0",
+  "notes": "更新入口移到顶栏，启动自动检查并弹窗提示；修复按键涟漪按住不亮",
+  "published": "2026-11-08",
+  "mirrors": []
+}

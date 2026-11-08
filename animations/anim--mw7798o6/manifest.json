@@ -1,0 +1,23 @@
+{
+  "id": "anim--mw7798o6",
+  "name": "？！爱心！？",
+  "author": "那秋眠",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "min_app": "v2.4.4",
+  "description": "",
+  "models": [
+    "60键"
+  ],
+  "layouts": [
+    "win60he",
+    "win60hepro",
+    "win60hemax",
+    "win60se"
+  ],
+  "fps": 10,
+  "smooth": true,
+  "tags": [],
+  "preview": "previews/anim--mw7798o6.png",
+  "frames": "animations/anim--mw7798o6/frames.json"
+}

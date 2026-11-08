@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-02T05:57:43Z",
+  "updated": "2026-11-08T09:56:42Z",
   "animations": [
     {
       "id": "anim--mvw7gzun",
@@ -51,11 +51,168 @@
       "smooth": true,
       "tags": [],
       "preview": "previews/anim--mvyua7vs.png",
-      "frames": "animations/anim--mvyua7vs/frames.json",
       "frames_url": "animations/anim--mvyua7vs/frames.json",
       "frames_count": 38,
       "size": 165979,
       "sha256": "39d36e70b71ba7bee3909453424232dbabbb3e13f713ade96777b075dd5713e7"
+    },
+    {
+      "id": "anim--mvyz9gme",
+      "name": "爱心渐出渐入",
+      "author": "那秋眠",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "",
+      "models": [
+        "60键",
+        "68键"
+      ],
+      "layouts": [
+        "win60he",
+        "win60hepro",
+        "win60hemax",
+        "win60se",
+        "win68he"
+      ],
+      "fps": 8,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim--mvyz9gme.png",
+      "frames_url": "animations/anim--mvyz9gme/frames.json",
+      "frames_count": 61,
+      "size": 31689,
+      "sha256": "ab2bc7ace00ad0a063a5e9a5fa45681a88337640b5b3c2e6d1ec81e091090f09"
+    },
+    {
+      "id": "anim--mvzgwbtg",
+      "name": "奶龙",
+      "author": "走好",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "哈哈哈哈哈",
+      "models": [
+        "60键"
+      ],
+      "layouts": [
+        "win60he",
+        "win60hepro",
+        "win60hemax",
+        "win60se"
+      ],
+      "fps": 24,
+      "smooth": false,
+      "tags": [],
+      "preview": "previews/anim--mvzgwbtg.png",
+      "frames_url": "animations/anim--mvzgwbtg/frames.json",
+      "frames_count": 13,
+      "size": 41641,
+      "sha256": "7a919ab8c35972a74b6551d0e1836894a65533df0eadf4540381a36fc545321f"
+    },
+    {
+      "id": "anim--mw1ouoge",
+      "name": "闪烁爱心",
+      "author": "jun",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "推荐透明键帽用 速度可以调到0.4左右",
+      "models": [
+        "60键"
+      ],
+      "layouts": [
+        "win60he",
+        "win60hepro",
+        "win60hemax",
+        "win60se"
+      ],
+      "fps": 8,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim--mw1ouoge.png",
+      "frames_url": "animations/anim--mw1ouoge/frames.json",
+      "frames_count": 16,
+      "size": 59004,
+      "sha256": "0413bc5f5e39155f0212593756f32a60583a0b38b502b63f4c8d299b4b69c474"
+    },
+    {
+      "id": "anim--mw7798o6",
+      "name": "？！爱心！？",
+      "author": "那秋眠",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "",
+      "models": [
+        "60键"
+      ],
+      "layouts": [
+        "win60he",
+        "win60hepro",
+        "win60hemax",
+        "win60se"
+      ],
+      "fps": 10,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim--mw7798o6.png",
+      "frames_url": "animations/anim--mw7798o6/frames.json",
+      "frames_count": 278,
+      "size": 633973,
+      "sha256": "ceea82474f67d50db4f3d17ab0ef15af245a0f530417cc6292b519a0815a276f"
+    },
+    {
+      "id": "anim--mw7m7iae",
+      "name": "时间线",
+      "author": "終余",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "时间线",
+      "models": [
+        "60键"
+      ],
+      "layouts": [
+        "win60he",
+        "win60hepro",
+        "win60hemax",
+        "win60se"
+      ],
+      "fps": 5,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim--mw7m7iae.png",
+      "frames_url": "animations/anim--mw7m7iae/frames.json",
+      "frames_count": 277,
+      "size": 488786,
+      "sha256": "d92a2b793864289f86e66814a02bef023db5afbc81a82fd4106e768870ac9ac6"
+    },
+    {
+      "id": "anim-aixin-mvz87oz5",
+      "name": "AIXIN",
+      "author": "那秋眠",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "",
+      "models": [
+        "60键"
+      ],
+      "layouts": [
+        "win60he",
+        "win60hepro",
+        "win60hemax",
+        "win60se"
+      ],
+      "fps": 24,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim-aixin-mvz87oz5.png",
+      "frames_url": "animations/anim-aixin-mvz87oz5/frames.json",
+      "frames_count": 1,
+      "size": 2076,
+      "sha256": "73ef324d58a5de8274d8e33299648d917b6b737b12098cb62cc7971b6f725519"
     },
     {
       "id": "anim-ceshi-mvyukh73",
@@ -78,7 +235,6 @@
       "smooth": true,
       "tags": [],
       "preview": "previews/anim-ceshi-mvyukh73.png",
-      "frames": "animations/anim-ceshi-mvyukh73/frames.json",
       "frames_url": "animations/anim-ceshi-mvyukh73/frames.json",
       "frames_count": 1,
       "size": 137,
@@ -179,7 +335,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 8,
+      "fps": 8.0,
       "smooth": true,
       "tags": [
         "爱心",
@@ -208,7 +364,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 3,
+      "fps": 3.0,
       "smooth": true,
       "tags": [
         "爱心",
@@ -238,7 +394,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 8,
+      "fps": 8.0,
       "smooth": true,
       "tags": [
         "爱心",
@@ -268,7 +424,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 5,
+      "fps": 5.0,
       "smooth": true,
       "tags": [
         "爱心",
@@ -297,7 +453,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 9,
+      "fps": 9.0,
       "smooth": true,
       "tags": [
         "爱心",
@@ -326,7 +482,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 6,
+      "fps": 6.0,
       "smooth": true,
       "tags": [
         "爱心",
