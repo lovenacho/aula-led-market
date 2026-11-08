@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-07T18:12:13Z",
+  "updated": "2026-11-08T02:15:05Z",
   "animations": [
     {
       "id": "anim--mvw7gzun",
@@ -139,6 +139,33 @@
       "frames_count": 16,
       "size": 59004,
       "sha256": "0413bc5f5e39155f0212593756f32a60583a0b38b502b63f4c8d299b4b69c474"
+    },
+    {
+      "id": "anim--mw7798o6",
+      "name": "？！爱心！？",
+      "author": "那秋眠",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "",
+      "models": [
+        "60键"
+      ],
+      "layouts": [
+        "win60he",
+        "win60hepro",
+        "win60hemax",
+        "win60se"
+      ],
+      "fps": 10,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim--mw7798o6.png",
+      "frames": "animations/anim--mw7798o6/frames.json",
+      "frames_url": "animations/anim--mw7798o6/frames.json",
+      "frames_count": 278,
+      "size": 633973,
+      "sha256": "ceea82474f67d50db4f3d17ab0ef15af245a0f530417cc6292b519a0815a276f"
     },
     {
       "id": "anim-aixin-mvz87oz5",
