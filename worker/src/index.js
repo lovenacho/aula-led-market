@@ -165,7 +165,6 @@ async function submit(payload, env) {
   const framesText = JSON.stringify(framesObj, null, 2) + '\n';
   const framesBytes = encoder.encode(framesText);
   if (framesBytes.length > 5 * 1024 * 1024) throw new Error('帧数据太大');
-  const framesSha = await sha256Hex(framesBytes);
   const manifestText = JSON.stringify(manifest, null, 2) + '\n';
   const branch = 'market-upload-' + id;
 
@@ -187,18 +186,8 @@ async function submit(payload, env) {
   await putFile('animations/' + id + '/frames.json', bytesToB64(framesBytes), 'market: add ' + name);
   await putFile('previews/' + id + '.png', bytesToB64(previewBytes), 'market: add ' + name);
 
-  index.animations.push({
-    ...manifest,
-    frames_url: 'animations/' + id + '/frames.json',
-    frames_count: framesObj.frames.length,
-    size: framesBytes.length,
-    sha256: framesSha,
-  });
-  index.animations.sort((a, b) => String(a.id).localeCompare(String(b.id)));
-  index.updated = new Date().toISOString().replace(/\.\d+Z$/, 'Z');
-  await putFile('index.json', textToB64(JSON.stringify(index, null, 2) + '\n'),
-    'market: index for ' + name, indexRes.sha);
-
+  // index.json 不在 PR 里修改：合并后由 GitHub Action 统一重建，
+  // 否则每个 PR 都会改同一份 index，永远互相冲突。
   const pr = await github('/repos/' + repo + '/pulls', token, {
     method: 'POST',
     body: JSON.stringify({
