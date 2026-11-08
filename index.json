@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-08T09:55:58Z",
+  "updated": "2026-11-08T14:24:27Z",
   "animations": [
     {
       "id": "anim--mvw7gzun",
@@ -265,6 +265,32 @@
       "frames_count": 216,
       "size": 167886,
       "sha256": "6b4958e9040dedfa0574c0d379d17c0cf5308dde8acaaa1bff08794889d67fe5"
+    },
+    {
+      "id": "anim-love-mw6w6ito",
+      "name": "LOVE心碎",
+      "author": "ZMJJKK",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "康神开播了",
+      "models": [
+        "60键"
+      ],
+      "layouts": [
+        "win60he",
+        "win60hepro",
+        "win60hemax",
+        "win60se"
+      ],
+      "fps": 6,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim-love-mw6w6ito.png",
+      "frames_url": "animations/anim-love-mw6w6ito/frames.json",
+      "frames_count": 223,
+      "size": 276394,
+      "sha256": "01329347e69976fe3c5076a79dc42fcf2b533c22ce5dc286c2dfd4bbfd131a70"
     },
     {
       "id": "anim-love-pro-mvwcx7jd",
