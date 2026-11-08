@@ -1,7 +1,7 @@
 {
   "version": "v2.5.6",
-  "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.5.6/AULA_LED_v2.5.6_Stable.zip",
-  "sha256": "3AE2502C98EEF5A60E5CA478B939E3827D3C80A9636AF2170335CB176224A382",
+  "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.5.6/AULA_LED_v2.5.6_Stable_Token.zip",
+  "sha256": "0BDDAC983F24EA5553E99321E4CFB3B17B7DA13C4F305C625C218C29C2206183",
   "size": 21307468,
   "min_app": "v2.5.0",
   "notes": "官方灯效 JSON 直接导入动画编辑器，自动识别帧数和键位，导入后还能继续修改。",
