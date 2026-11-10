@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-08T14:34:14Z",
+  "updated": "2026-11-09T16:11:29Z",
   "animations": [
     {
       "id": "anim--mvw7gzun",
@@ -215,6 +215,33 @@
       "sha256": "d92a2b793864289f86e66814a02bef023db5afbc81a82fd4106e768870ac9ac6"
     },
     {
+      "id": "anim--mw9gkp8b",
+      "name": "爱心无限",
+      "author": "終余",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "复刻狼蛛，不喜勿喷",
+      "models": [
+        "60键"
+      ],
+      "layouts": [
+        "win60he",
+        "win60hepro",
+        "win60hemax",
+        "win60se"
+      ],
+      "fps": 6,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim--mw9gkp8b.png",
+      "frames": "animations/anim--mw9gkp8b/frames.json",
+      "frames_url": "animations/anim--mw9gkp8b/frames.json",
+      "frames_count": 282,
+      "size": 496656,
+      "sha256": "ce1aa6dc727446dfe4723edcdba67f7a7c0c134b742f433f09487af9b33b09a1"
+    },
+    {
       "id": "anim-aixin-mvz87oz5",
       "name": "AIXIN",
       "author": "那秋眠",
@@ -410,7 +437,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 8.0,
+      "fps": 8,
       "smooth": true,
       "tags": [
         "爱心",
@@ -439,7 +466,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 3.0,
+      "fps": 3,
       "smooth": true,
       "tags": [
         "爱心",
@@ -469,7 +496,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 8.0,
+      "fps": 8,
       "smooth": true,
       "tags": [
         "爱心",
@@ -499,7 +526,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 5.0,
+      "fps": 5,
       "smooth": true,
       "tags": [
         "爱心",
@@ -528,7 +555,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 9.0,
+      "fps": 9,
       "smooth": true,
       "tags": [
         "爱心",
@@ -557,7 +584,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 6.0,
+      "fps": 6,
       "smooth": true,
       "tags": [
         "爱心",
