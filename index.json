@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-10T04:38:13Z",
+  "updated": "2026-11-10T04:39:02Z",
   "animations": [
     {
       "id": "anim--mvw7gzun",
@@ -291,6 +291,32 @@
       "frames_count": 1,
       "size": 2076,
       "sha256": "23f14cddd82bcd2b01223f9e1a0b3123374e1edca6596953e1fd6b3f9be782bd"
+    },
+    {
+      "id": "anim-ceshi-mvyukh73",
+      "name": "ceshi",
+      "author": "那秋眠",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "",
+      "models": [
+        "60键"
+      ],
+      "layouts": [
+        "win60he",
+        "win60hepro",
+        "win60hemax",
+        "win60se"
+      ],
+      "fps": 8,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim-ceshi-mvyukh73.png",
+      "frames_url": "animations/anim-ceshi-mvyukh73/frames.json",
+      "frames_count": 1,
+      "size": 137,
+      "sha256": "6aeaa90c25b1eb27dbd709576d1d12fdd840a843ed225afffa5f23531593244c"
     },
     {
       "id": "anim-love-mvytq130",
