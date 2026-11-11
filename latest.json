@@ -1,10 +1,10 @@
 {
   "version": "v2.6.1",
   "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.6.1/AULA_LED_v2.6.1_Stable.zip",
-  "sha256": "F5BB85C24214CA17F925EDE6257AECA9BAAF084B8B1F9BC8149D909243D44CEE",
-  "size": 21366597,
+  "sha256": "2C42EC611208DF8F235025D770099643273B82651B2705BB4085D2240750F692",
+  "size": 21368796,
   "min_app": "v2.5.0",
-  "notes": "WIN 60 SE 空格 5 灯补充引擎键位；更新器置顶；屏幕分区镜像、中文重名修复、首次启动声明。",
+  "notes": "WIN 60 SE 空格 5 灯改为 Core 引擎真实键位；更新器置顶；屏幕分区镜像、中文重名修复、首次启动声明。",
   "published": "2026-11-12",
   "mirrors": []
 }
