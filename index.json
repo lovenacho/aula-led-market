@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-11T05:44:52Z",
+  "updated": "2026-11-11T20:10:43Z",
   "animations": [
     {
       "id": "anim--mvw7gzun",
@@ -394,6 +394,33 @@
       "sha256": "01329347e69976fe3c5076a79dc42fcf2b533c22ce5dc286c2dfd4bbfd131a70"
     },
     {
+      "id": "anim-love-mwcjzz73",
+      "name": "LOVE心碎",
+      "author": "ZMJJKK",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "康神开播了_新",
+      "models": [
+        "60键"
+      ],
+      "layouts": [
+        "win60he",
+        "win60hepro",
+        "win60hemax",
+        "win60se"
+      ],
+      "fps": 6,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim-love-mwcjzz73.png",
+      "frames": "animations/anim-love-mwcjzz73/frames.json",
+      "frames_url": "animations/anim-love-mwcjzz73/frames.json",
+      "frames_count": 231,
+      "size": 276293,
+      "sha256": "4898dbe04fc04f07fcfe242f4f87a9f3230021d5d530bd704dc9eb4f3de0c9e2"
+    },
+    {
       "id": "anim-love-plus111-mw0hzt14",
       "name": "love plus111",
       "author": "HedGehog",
@@ -485,7 +512,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 8.0,
+      "fps": 8,
       "smooth": true,
       "tags": [
         "爱心",
@@ -514,7 +541,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 3.0,
+      "fps": 3,
       "smooth": true,
       "tags": [
         "爱心",
@@ -544,7 +571,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 8.0,
+      "fps": 8,
       "smooth": true,
       "tags": [
         "爱心",
@@ -574,7 +601,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 5.0,
+      "fps": 5,
       "smooth": true,
       "tags": [
         "爱心",
@@ -603,7 +630,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 9.0,
+      "fps": 9,
       "smooth": true,
       "tags": [
         "爱心",
@@ -632,7 +659,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 6.0,
+      "fps": 6,
       "smooth": true,
       "tags": [
         "爱心",
