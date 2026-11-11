@@ -1,10 +1,10 @@
 {
-  "version": "v2.5.7",
-  "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.5.7/AULA_LED_v2.5.7_Stable.zip",
-  "sha256": "0ACD28EE513C0F593614B809C43A9708394E195DAE53135DAFDE9E29C2E6939B",
-  "size": 21309969,
+  "version": "v2.6.2",
+  "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.6.2/AULA_LED_v2.6.2_Stable.zip",
+  "sha256": "2CD1169296588BA272AB800D3D6A54F99B7DC345F321AB08F8C37FD0955ABF4D",
+  "size": 21364979,
   "min_app": "v2.5.0",
-  "notes": "修复更新.bat点击无反应；官方 JSON 导入；加密 Token 随包。",
-  "published": "2026-11-08",
+  "notes": "修复动画工程中文重名覆盖；完善首次启动声明与赞赏层级；屏幕分区镜像与 WIN 60 SE 空格 5 灯。",
+  "published": "2026-11-12",
   "mirrors": []
 }
