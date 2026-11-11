@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-11T05:44:52Z",
+  "updated": "2026-11-11T09:24:23Z",
   "animations": [
     {
       "id": "anim--mvw7gzun",
@@ -264,6 +264,33 @@
       "sha256": "2c2c06c8d56cdbe2d0b27ef3142aab8bb37ae9a62f55366bd8361d28b3db169b"
     },
     {
+      "id": "anim-2-mwbwwufe",
+      "name": "爱心2",
+      "author": "小易",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "",
+      "models": [
+        "60键"
+      ],
+      "layouts": [
+        "win60he",
+        "win60hepro",
+        "win60hemax",
+        "win60se"
+      ],
+      "fps": 3,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim-2-mwbwwufe.png",
+      "frames": "animations/anim-2-mwbwwufe/frames.json",
+      "frames_url": "animations/anim-2-mwbwwufe/frames.json",
+      "frames_count": 18,
+      "size": 25607,
+      "sha256": "be89669cd7ecd51a4eccb57d7678d4730a5d6f26f8ccd167e94989e6b4f41f2f"
+    },
+    {
       "id": "anim-aixin-mvz87oz5",
       "name": "AIXIN",
       "author": "那秋眠",
@@ -485,7 +512,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 8.0,
+      "fps": 8,
       "smooth": true,
       "tags": [
         "爱心",
@@ -514,7 +541,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 3.0,
+      "fps": 3,
       "smooth": true,
       "tags": [
         "爱心",
@@ -544,7 +571,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 8.0,
+      "fps": 8,
       "smooth": true,
       "tags": [
         "爱心",
@@ -574,7 +601,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 5.0,
+      "fps": 5,
       "smooth": true,
       "tags": [
         "爱心",
@@ -603,7 +630,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 9.0,
+      "fps": 9,
       "smooth": true,
       "tags": [
         "爱心",
@@ -632,7 +659,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 6.0,
+      "fps": 6,
       "smooth": true,
       "tags": [
         "爱心",
