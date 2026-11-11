@@ -1,10 +1,10 @@
 {
-  "version": "v2.5.8",
-  "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.5.8/AULA_LED_v2.5.8_Stable.zip",
-  "sha256": "83F1F4D974192F3229A7C2BE7C7B130957FA5B5A09265659BA35B268C9FD7A13",
-  "size": 21318841,
+  "version": "v2.5.7",
+  "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.5.7/AULA_LED_v2.5.7_Stable.zip",
+  "sha256": "0ACD28EE513C0F593614B809C43A9708394E195DAE53135DAFDE9E29C2E6939B",
+  "size": 21309969,
   "min_app": "v2.5.0",
-  "notes": "新增屏幕分区镜像（桌面画面映射键盘）；修复更新.bat；官方 JSON 导入；加密 Token 随包。",
-  "published": "2026-11-11",
+  "notes": "修复更新.bat点击无反应；官方 JSON 导入；加密 Token 随包。",
+  "published": "2026-11-08",
   "mirrors": []
 }
