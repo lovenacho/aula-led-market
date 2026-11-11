@@ -1,10 +1,10 @@
 {
   "version": "v2.6.1",
   "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.6.1/AULA_LED_v2.6.1_Stable.zip",
-  "sha256": "B5A82EC41E9FAF76FCE991162A16B9975D56A711A0BDB3D7FC7C379AA9F180EB",
-  "size": 21364908,
+  "sha256": "F70801B6AB8C3AE769FBC6928D4E6827DCCE508F99C4191FD25C86DEFD559808",
+  "size": 21365078,
   "min_app": "v2.5.0",
-  "notes": "回退稳定版：屏幕分区镜像、WIN 60 SE 空格 5 灯、动画工程中文重名修复、首次启动声明、独立更新器。",
+  "notes": "修复更新器窗口被主界面遮挡；屏幕分区镜像、WIN 60 SE 空格 5 灯、动画工程中文重名修复、首次启动声明。",
   "published": "2026-11-12",
   "mirrors": []
 }
