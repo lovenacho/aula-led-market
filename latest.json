@@ -1,10 +1,10 @@
 {
-  "version": "v2.6.1",
-  "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.6.1/AULA_LED_v2.6.1_Stable.zip",
-  "sha256": "0F7D882FE2F7F6E02E84DC4E80FF0C745CD1C70F231AAC76EF711DB0585A9EC0",
-  "size": 21370473,
+  "version": "v2.6.2",
+  "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.6.2/AULA_LED_v2.6.2_Stable.zip",
+  "sha256": "3EBA7E7E25FF98FAC1E4B38D61BB4350BFF21C8942D39AB9EDF0386E63C3BDBB",
+  "size": 44842155,
   "min_app": "v2.5.0",
-  "notes": "回退稳定版：WIN 60 SE 4fps 修复、mini60hepro 保持原样；2.6.2 测试包未公开。",
+  "notes": "WIN 60 SE 空格 5 灯与 4fps 修复；mini60hepro 保持原样；安全卸载；未适配 WIN 68 HE MAX。",
   "published": "2026-11-12",
   "mirrors": []
 }
