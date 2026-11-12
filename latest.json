@@ -1,10 +1,10 @@
 {
-  "version": "v2.6.1",
-  "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.6.1/AULA_LED_v2.6.1_Stable.zip",
-  "sha256": "0F7D882FE2F7F6E02E84DC4E80FF0C745CD1C70F231AAC76EF711DB0585A9EC0",
-  "size": 21370473,
+  "version": "v2.6.2",
+  "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.6.2/AULA_LED_v2.6.2_Stable.zip",
+  "sha256": "7DE5076D2568DC1BE0CA8D58B2D1E53FCDF4DABFD5F8B8092399090AC95A2E14",
+  "size": 21370460,
   "min_app": "v2.5.0",
-  "notes": "卸载只删除程序文件，保留安装目录中的个人文件；WIN 60 SE 空格 5 灯 Core 引擎键位；更新器置顶。",
+  "notes": "测试修复：卸载不再删除整个安装目录，只删 AULA 程序文件并保留个人文件；安装器保护危险路径；WIN 60 SE 空格 5 灯 Core 键位；更新器置顶。",
   "published": "2026-11-12",
   "mirrors": []
 }
