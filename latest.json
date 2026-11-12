@@ -1,10 +1,10 @@
 {
   "version": "v2.6.2",
   "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.6.2/AULA_LED_v2.6.2_Stable.zip",
-  "sha256": "32F087199B0C1E6051F5ACCE94DC12E88C7CDD135A0D78DC9DC5CE98E6575019",
-  "size": 21370668,
+  "sha256": "01ED1D150D8FCCB641E400FA0D281E0FDF17170595F38FA5B7F34FED6E925370",
+  "size": 21370875,
   "min_app": "v2.5.0",
-  "notes": "新增 WIN 68 HE MAX（1CA2:1901，0x5C）；安全卸载；WIN 60 SE 空格 5 灯；更新器置顶。",
+  "notes": "WIN 68 HE MAX 补充 8 个导航/方向键 HID 码；安全卸载；WIN 60 SE 空格 5 灯。",
   "published": "2026-11-12",
   "mirrors": []
 }
