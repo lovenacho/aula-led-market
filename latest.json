@@ -1,10 +1,10 @@
 {
-  "version": "v2.6.2",
-  "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.6.2/AULA_LED_v2.6.2_Stable.zip",
-  "sha256": "3EBA7E7E25FF98FAC1E4B38D61BB4350BFF21C8942D39AB9EDF0386E63C3BDBB",
-  "size": 44842155,
+  "version": "v2.6.3",
+  "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.6.3/%E9%80%90%E5%85%89%E7%81%AF%E5%85%89%E9%A9%B1%E5%8A%A8_v2.6.3.zip",
+  "sha256": "95CFA32D81A2091EC0B1B2F389DBD42D333FB78FA729747E37D322D89B6B6BE8",
+  "size": 22637741,
   "min_app": "v2.5.0",
-  "notes": "WIN 60 SE 空格 5 灯与 4fps 修复；mini60hepro 保持原样；安全卸载；未适配 WIN 68 HE MAX。",
-  "published": "2026-11-12",
+  "notes": "逐光 2.6.3：界面重做、背景图片/视频、屏幕区域、开机启动弹窗或托盘、更新器新界面；Core 版本已修正为 2.6.3。",
+  "published": "2026-11-17",
   "mirrors": []
 }
