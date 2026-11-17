@@ -1,10 +1,10 @@
 {
   "version": "v2.6.4",
   "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.6.4/%E9%80%90%E5%85%89%E7%81%AF%E5%85%89%E9%A9%B1%E5%8A%A8_v2.6.4.zip",
-  "sha256": "B2435D4F73E0BDACFF29AC245C4B4B736C625A4336D4EA39C2F465C60776C98F",
-  "size": 22644794,
+  "sha256": "ABF80DF6140FCEE6DB418D5C8AA87DD5CA18DA9587A4590D536E351D7724D9D3",
+  "size": 22645633,
   "min_app": "v2.5.0",
-  "notes": "2.6.4：壁纸库可在界面内生成列表，自动识别 Steam 库、创意工坊和本地 projects；新增发布前壁纸缓存清理脚本；Core 版本已同步 2.6.4。",
+  "notes": "2.6.4：壁纸库可在界面内生成列表，自动识别 Steam 库、创意工坊和本地 projects；新增发布前壁纸缓存清理脚本；Core 自动启动开机启动助手，助手不可用时回退到开机启动设置。",
   "published": "2026-11-17",
   "mirrors": []
 }
