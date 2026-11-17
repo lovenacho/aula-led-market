@@ -1,10 +1,10 @@
 {
-  "version": "v2.6.3",
-  "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.6.3/%E9%80%90%E5%85%89%E7%81%AF%E5%85%89%E9%A9%B1%E5%8A%A8_v2.6.3.zip",
-  "sha256": "95CFA32D81A2091EC0B1B2F389DBD42D333FB78FA729747E37D322D89B6B6BE8",
-  "size": 22637741,
+  "version": "v2.6.4",
+  "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.6.4/%E9%80%90%E5%85%89%E7%81%AF%E5%85%89%E9%A9%B1%E5%8A%A8_v2.6.4.zip",
+  "sha256": "B2435D4F73E0BDACFF29AC245C4B4B736C625A4336D4EA39C2F465C60776C98F",
+  "size": 22644794,
   "min_app": "v2.5.0",
-  "notes": "逐光 2.6.3：界面重做、背景图片/视频、屏幕区域、开机启动弹窗或托盘、更新器新界面；Core 版本已修正为 2.6.3。",
+  "notes": "2.6.4：壁纸库可在界面内生成列表，自动识别 Steam 库、创意工坊和本地 projects；新增发布前壁纸缓存清理脚本；Core 版本已同步 2.6.4。",
   "published": "2026-11-17",
   "mirrors": []
 }
