@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-11T05:44:52Z",
+  "updated": "2026-11-17T11:04:55Z",
   "animations": [
     {
       "id": "anim--mvw7gzun",
@@ -264,6 +264,33 @@
       "sha256": "2c2c06c8d56cdbe2d0b27ef3142aab8bb37ae9a62f55366bd8361d28b3db169b"
     },
     {
+      "id": "anim--mwkl5ai9",
+      "name": "心跳律动",
+      "author": "Zachary",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "这个作者很懒 什么也没留下--",
+      "models": [
+        "60键"
+      ],
+      "layouts": [
+        "win60he",
+        "win60hepro",
+        "win60hemax",
+        "win60se"
+      ],
+      "fps": 24,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim--mwkl5ai9.png",
+      "frames": "animations/anim--mwkl5ai9/frames.json",
+      "frames_url": "animations/anim--mwkl5ai9/frames.json",
+      "frames_count": 127,
+      "size": 232895,
+      "sha256": "f00fe2842eece2e9833375cf699c0c0b37e610cb2d91563bcb805c0d022f3a2a"
+    },
+    {
       "id": "anim-aixin-mvz87oz5",
       "name": "AIXIN",
       "author": "那秋眠",
@@ -485,7 +512,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 8.0,
+      "fps": 8,
       "smooth": true,
       "tags": [
         "爱心",
@@ -514,7 +541,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 3.0,
+      "fps": 3,
       "smooth": true,
       "tags": [
         "爱心",
@@ -544,7 +571,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 8.0,
+      "fps": 8,
       "smooth": true,
       "tags": [
         "爱心",
@@ -574,7 +601,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 5.0,
+      "fps": 5,
       "smooth": true,
       "tags": [
         "爱心",
@@ -603,7 +630,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 9.0,
+      "fps": 9,
       "smooth": true,
       "tags": [
         "爱心",
@@ -632,7 +659,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 6.0,
+      "fps": 6,
       "smooth": true,
       "tags": [
         "爱心",
