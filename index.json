@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-20T08:46:11Z",
+  "updated": "2026-11-20T08:46:28Z",
   "animations": [
     {
       "id": "anim--mvw7gzun",
@@ -290,6 +290,30 @@
       "sha256": "e284e04045a7ecca025ec41adb55b9c2608fc5248c9fa0360e68d7d93754a195"
     },
     {
+      "id": "anim-01055-mwoqiq7h",
+      "name": "01055左键变",
+      "author": "TD",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "",
+      "models": [
+        "68键"
+      ],
+      "layouts": [
+        "win68he"
+      ],
+      "fps": 5,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim-01055-mwoqiq7h.png",
+      "frames": "animations/anim-01055-mwoqiq7h/frames.json",
+      "frames_url": "animations/anim-01055-mwoqiq7h/frames.json",
+      "frames_count": 15,
+      "size": 61403,
+      "sha256": "8f36551eb06da41a4bbb2842eb7a9b522b7ee46b9db5e8d1898ef38f016fe737"
+    },
+    {
       "id": "anim-aixin-mvz87oz5",
       "name": "AIXIN",
       "author": "那秋眠",
@@ -511,7 +535,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 8.0,
+      "fps": 8,
       "smooth": true,
       "tags": [
         "爱心",
@@ -540,7 +564,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 3.0,
+      "fps": 3,
       "smooth": true,
       "tags": [
         "爱心",
@@ -570,7 +594,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 8.0,
+      "fps": 8,
       "smooth": true,
       "tags": [
         "爱心",
@@ -600,7 +624,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 5.0,
+      "fps": 5,
       "smooth": true,
       "tags": [
         "爱心",
@@ -629,7 +653,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 9.0,
+      "fps": 9,
       "smooth": true,
       "tags": [
         "爱心",
@@ -658,7 +682,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 6.0,
+      "fps": 6,
       "smooth": true,
       "tags": [
         "爱心",
