@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-20T09:13:14Z",
+  "updated": "2026-11-20T10:22:24Z",
   "animations": [
     {
       "id": "anim--mvw7gzun",
@@ -241,6 +241,32 @@
       "sha256": "ce1aa6dc727446dfe4723edcdba67f7a7c0c134b742f433f09487af9b33b09a1"
     },
     {
+      "id": "anim--mwanojzz",
+      "name": "红紫石中剑",
+      "author": "普信且渣男",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "",
+      "models": [
+        "60键"
+      ],
+      "layouts": [
+        "win60he",
+        "win60hepro",
+        "win60hemax",
+        "win60se"
+      ],
+      "fps": 9,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim--mwanojzz.png",
+      "frames_url": "animations/anim--mwanojzz/frames.json",
+      "frames_count": 200,
+      "size": 617466,
+      "sha256": "c5353cd9ba11001eb275fef9abf4bd34ce10ef71eac6d6dfab0d64bec7e11809"
+    },
+    {
       "id": "anim--mwbox4d1",
       "name": "爱心❤️渐变",
       "author": "TD",
@@ -262,6 +288,55 @@
       "frames_count": 25,
       "size": 25190,
       "sha256": "2c2c06c8d56cdbe2d0b27ef3142aab8bb37ae9a62f55366bd8361d28b3db169b"
+    },
+    {
+      "id": "anim--mwkl5ai9",
+      "name": "心跳律动",
+      "author": "Zachary",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "这个作者很懒 什么也没留下--",
+      "models": [
+        "60键"
+      ],
+      "layouts": [
+        "win60he",
+        "win60hepro",
+        "win60hemax",
+        "win60se"
+      ],
+      "fps": 24,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim--mwkl5ai9.png",
+      "frames_url": "animations/anim--mwkl5ai9/frames.json",
+      "frames_count": 127,
+      "size": 232895,
+      "sha256": "f00fe2842eece2e9833375cf699c0c0b37e610cb2d91563bcb805c0d022f3a2a"
+    },
+    {
+      "id": "anim--mwopwuvs",
+      "name": "渐变心跳❤️",
+      "author": "TD",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "",
+      "models": [
+        "68键"
+      ],
+      "layouts": [
+        "win68he"
+      ],
+      "fps": 8,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim--mwopwuvs.png",
+      "frames_url": "animations/anim--mwopwuvs/frames.json",
+      "frames_count": 16,
+      "size": 61350,
+      "sha256": "36de8b19bc269dfa106c1b130491eb0a46b6c4e2ed5014cced6887fba960dcc2"
     },
     {
       "id": "anim--mwoqastq",
@@ -290,6 +365,32 @@
       "sha256": "e284e04045a7ecca025ec41adb55b9c2608fc5248c9fa0360e68d7d93754a195"
     },
     {
+      "id": "anim-01-mwer6lck",
+      "name": "渐变01",
+      "author": "TD",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "",
+      "models": [
+        "60键"
+      ],
+      "layouts": [
+        "win60he",
+        "win60hepro",
+        "win60hemax",
+        "win60se"
+      ],
+      "fps": 4,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim-01-mwer6lck.png",
+      "frames_url": "animations/anim-01-mwer6lck/frames.json",
+      "frames_count": 54,
+      "size": 109961,
+      "sha256": "cb019f9b2921285b3f44e0a3e4ea5ee795e8a7f3740c25347b8fb1f435f05e11"
+    },
+    {
       "id": "anim-01055-mwoqiq7h",
       "name": "01055左键变",
       "author": "TD",
@@ -311,6 +412,55 @@
       "frames_count": 15,
       "size": 61403,
       "sha256": "8f36551eb06da41a4bbb2842eb7a9b522b7ee46b9db5e8d1898ef38f016fe737"
+    },
+    {
+      "id": "anim-2-mwbwwufe",
+      "name": "爱心2",
+      "author": "小易",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "",
+      "models": [
+        "60键"
+      ],
+      "layouts": [
+        "win60he",
+        "win60hepro",
+        "win60hemax",
+        "win60se"
+      ],
+      "fps": 3,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim-2-mwbwwufe.png",
+      "frames_url": "animations/anim-2-mwbwwufe/frames.json",
+      "frames_count": 18,
+      "size": 25607,
+      "sha256": "be89669cd7ecd51a4eccb57d7678d4730a5d6f26f8ccd167e94989e6b4f41f2f"
+    },
+    {
+      "id": "anim-66-mwopxdzc",
+      "name": "渐变66",
+      "author": "TD",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "",
+      "models": [
+        "68键"
+      ],
+      "layouts": [
+        "win68he"
+      ],
+      "fps": 8,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim-66-mwopxdzc.png",
+      "frames_url": "animations/anim-66-mwopxdzc/frames.json",
+      "frames_count": 16,
+      "size": 61340,
+      "sha256": "6960ccd61414dc0d8fb8980af30b846c6e03c54ebdc1825efea8b33a2c3754a3"
     },
     {
       "id": "anim-aixin-mvz87oz5",
@@ -441,6 +591,55 @@
       "frames_count": 223,
       "size": 276394,
       "sha256": "01329347e69976fe3c5076a79dc42fcf2b533c22ce5dc286c2dfd4bbfd131a70"
+    },
+    {
+      "id": "anim-love-mwcjzz73",
+      "name": "LOVE心碎",
+      "author": "ZMJJKK",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "康神开播了_新",
+      "models": [
+        "60键"
+      ],
+      "layouts": [
+        "win60he",
+        "win60hepro",
+        "win60hemax",
+        "win60se"
+      ],
+      "fps": 6,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim-love-mwcjzz73.png",
+      "frames_url": "animations/anim-love-mwcjzz73/frames.json",
+      "frames_count": 231,
+      "size": 276293,
+      "sha256": "4898dbe04fc04f07fcfe242f4f87a9f3230021d5d530bd704dc9eb4f3de0c9e2"
+    },
+    {
+      "id": "anim-love-mwd5uzul",
+      "name": "love碰撞",
+      "author": "爆炸",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "",
+      "models": [
+        "68键"
+      ],
+      "layouts": [
+        "win68he"
+      ],
+      "fps": 6,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim-love-mwd5uzul.png",
+      "frames_url": "animations/anim-love-mwd5uzul/frames.json",
+      "frames_count": 227,
+      "size": 168553,
+      "sha256": "d508178f517c78f9038c47bf21306229ca219895fc5e04bf298698ca2738a4d2"
     },
     {
       "id": "anim-love-plus111-mw0hzt14",
