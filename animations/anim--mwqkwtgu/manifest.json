@@ -1,0 +1,20 @@
+{
+  "id": "anim--mwqkwtgu",
+  "name": "粉色💗",
+  "author": "lll",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "min_app": "v2.4.4",
+  "description": "",
+  "models": [
+    "68键"
+  ],
+  "layouts": [
+    "win68he"
+  ],
+  "fps": 9,
+  "smooth": true,
+  "tags": [],
+  "preview": "previews/anim--mwqkwtgu.png",
+  "frames": "animations/anim--mwqkwtgu/frames.json"
+}
