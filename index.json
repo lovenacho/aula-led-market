@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-20T10:22:24Z",
+  "updated": "2026-11-21T15:46:59Z",
   "animations": [
     {
       "id": "anim--mvw7gzun",
@@ -363,6 +363,30 @@
       "frames_count": 15,
       "size": 30547,
       "sha256": "e284e04045a7ecca025ec41adb55b9c2608fc5248c9fa0360e68d7d93754a195"
+    },
+    {
+      "id": "anim--mwqkzgoz",
+      "name": "粉色💗",
+      "author": "lll",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "",
+      "models": [
+        "68键"
+      ],
+      "layouts": [
+        "win68he"
+      ],
+      "fps": 9,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim--mwqkzgoz.png",
+      "frames": "animations/anim--mwqkzgoz/frames.json",
+      "frames_url": "animations/anim--mwqkzgoz/frames.json",
+      "frames_count": 72,
+      "size": 91552,
+      "sha256": "335f4b71644b3ac1c726afbb7242d25608884fdcc4affdee66ce65424ad1695e"
     },
     {
       "id": "anim-01-mwer6lck",
@@ -733,7 +757,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 8.0,
+      "fps": 8,
       "smooth": true,
       "tags": [
         "爱心",
@@ -762,7 +786,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 3.0,
+      "fps": 3,
       "smooth": true,
       "tags": [
         "爱心",
@@ -792,7 +816,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 8.0,
+      "fps": 8,
       "smooth": true,
       "tags": [
         "爱心",
@@ -822,7 +846,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 5.0,
+      "fps": 5,
       "smooth": true,
       "tags": [
         "爱心",
@@ -851,7 +875,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 9.0,
+      "fps": 9,
       "smooth": true,
       "tags": [
         "爱心",
@@ -880,7 +904,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 6.0,
+      "fps": 6,
       "smooth": true,
       "tags": [
         "爱心",
