@@ -1,10 +1,10 @@
 {
-  "version": "v2.6.4",
-  "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.6.4/%E9%80%90%E5%85%89%E7%81%AF%E5%85%89%E9%A9%B1%E5%8A%A8_v2.6.4.zip",
-  "sha256": "E119F1ECB030860EC928879390D93C717B5DD0EC7C3695F3DDA6BD90C3EC8C86",
-  "size": 22646688,
+  "version": "v2.6.5",
+  "url": "https://gitee.com/lovenacho/aula-led-updates/releases/download/v2.6.5/AULA_LED_v2.6.5_Stable.zip",
+  "sha256": "E2786A521D85DC3AF4C5915CE9C3BFB6B76F37C7D368ACD9BB216337CDD03076",
+  "size": 21836344,
   "min_app": "v2.5.0",
-  "notes": "2.6.4：壁纸库界面生成列表；Core 自动启动开机启动助手，助手失效回退设置；更新器会停止占用进程、重试复制并跳过被占用的卸载器，修复 AULA卸载程序.exe 锁定导致的更新失败。",
-  "published": "2026-11-17",
+  "notes": "v2.6.5 更新",
+  "published": "2026-11-28",
   "mirrors": []
 }
