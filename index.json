@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-25T14:27:06Z",
+  "updated": "2026-11-28T06:17:58Z",
   "animations": [
     {
       "id": "anim--mvw7gzun",
@@ -538,6 +538,33 @@
       "sha256": "23f14cddd82bcd2b01223f9e1a0b3123374e1edca6596953e1fd6b3f9be782bd"
     },
     {
+      "id": "anim-c-ce-shi-mx00qmu7",
+      "name": "c'ce'shi",
+      "author": "那秋眠",
+      "version": "1.0.0",
+      "license": "CC-BY-4.0",
+      "min_app": "v2.4.4",
+      "description": "",
+      "models": [
+        "60键"
+      ],
+      "layouts": [
+        "win60he",
+        "win60hepro",
+        "win60hemax",
+        "win60se"
+      ],
+      "fps": 8,
+      "smooth": true,
+      "tags": [],
+      "preview": "previews/anim-c-ce-shi-mx00qmu7.png",
+      "frames": "animations/anim-c-ce-shi-mx00qmu7/frames.json",
+      "frames_url": "animations/anim-c-ce-shi-mx00qmu7/frames.json",
+      "frames_count": 1,
+      "size": 140,
+      "sha256": "6bc6545ca47e2ddb9191c00816a6eb34888d27edddffacc37a9a2cc2fb73b566"
+    },
+    {
       "id": "anim-ceshi-mvyukh73",
       "name": "ceshi",
       "author": "那秋眠",
@@ -756,7 +783,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 8.0,
+      "fps": 8,
       "smooth": true,
       "tags": [
         "爱心",
@@ -785,7 +812,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 3.0,
+      "fps": 3,
       "smooth": true,
       "tags": [
         "爱心",
@@ -815,7 +842,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 8.0,
+      "fps": 8,
       "smooth": true,
       "tags": [
         "爱心",
@@ -845,7 +872,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 5.0,
+      "fps": 5,
       "smooth": true,
       "tags": [
         "爱心",
@@ -874,7 +901,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 9.0,
+      "fps": 9,
       "smooth": true,
       "tags": [
         "爱心",
@@ -903,7 +930,7 @@
         "win60hemax",
         "win60se"
       ],
-      "fps": 6.0,
+      "fps": 6,
       "smooth": true,
       "tags": [
         "爱心",
